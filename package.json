@@ -1,0 +1,71 @@
+{
+  "name": "capico-vue-responsive-dash",
+  "version": "1.0.1",
+  "keywords": [
+    "vuejs",
+    "vue",
+    "responsive",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable",
+    "dashboard",
+    "grid",
+    "grid-layout",
+    "components"
+  ],
+  "files": [
+    "dist",
+    "types/*.d.ts"
+  ],
+  "types": "types/index.d.ts",
+  "author": "Daniil",
+  "main": "dist/capico-vue-responsive-dash.common.js",
+  "bin": "dist/capico-vue-responsive-dash.common.js",
+  "unpkg": "dist/capico-vue-responsive-dash.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "rimraf dist && vue-cli-service build",
+    "build:lib": "rimraf dist && vue-cli-service build --target lib ./src/components/index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@interactjs/types": "^1.9.20",
+    "@types/jest": "^26.0.10",
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-eslint": "^4.5.4",
+    "@vue/cli-plugin-typescript": "^4.5.4",
+    "@vue/cli-plugin-unit-jest": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.3",
+    "@vuepress/shared-utils": "^1.5.3",
+    "core-js": "^3.6.5",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "regenerator-runtime": "^0.13.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-typescript": "^0.3.0"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "dependencies": {
+    "@interactjs/actions": "^1.9.20",
+    "@interactjs/auto-start": "^1.9.20",
+    "@interactjs/interact": "^1.9.20",
+    "ste-simple-events": "^1.6.13",
+    "vue-element-resize-detector": "^1.0.6"
+  }
+}
