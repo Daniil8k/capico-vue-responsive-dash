@@ -2,7 +2,7 @@
 
 Fixed version of vue-responsive-dash (https://github.com/bensladden/vue-responsive-dash) by bensladden.
 
-⭐️ Fixed issue - Dash [Item position issue on adding new item](https://github.com/bensladden/vue-responsive-dash/issues/283)
+⭐️ Fixed issue - [Item position issue on adding new item](https://github.com/bensladden/vue-responsive-dash/issues/283)
 
 <p align="center">
     <img alt="netlify" src="https://img.shields.io/netlify/0d5865ba-90df-4e35-826f-296d6fc6b106">
